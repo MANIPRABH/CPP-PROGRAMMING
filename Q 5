@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+int main ()
+{
+ int a = 15, b = 20;
+ printf("max = %d\n", ((a + b) + abs(a - b)) / 2);
+ printf("min = %d", ((a + b) - abs(a - b)) / 2);
+ return 0;
+}
+Ans:
+ The header file <bits/stdc++. H> is not a standard header file of the
+GNU C++ library; if we try to use it in other compilers, it might fail. Hence
+it is also not a portable header, and therefore we should avoid using it.
